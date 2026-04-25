@@ -34,6 +34,7 @@ type Dict = {
     paid: { name: string; meta: string; desc: string };
     glow: { name: string; meta: string; desc: string };
     amber: { name: string; meta: string; desc: string };
+    stratos: { name: string; meta: string; desc: string };
   };
   services: {
     label: string;
@@ -107,6 +108,11 @@ const dict: Record<Lang, Dict> = {
         name: "Amber Brew",
         meta: "— cafe website",
         desc: "คาเฟ่ specialty — เมนู, แผนที่, IG feed, สั่งออนไลน์",
+      },
+      stratos: {
+        name: "Stratos Digital",
+        meta: "— B2B software studio",
+        desc: "เว็บบริษัท IT/software house — Modern corporate · animated trust marquee · case studies + 4-step process · TH/EN",
       },
     },
     services: {
@@ -230,6 +236,11 @@ const dict: Record<Lang, Dict> = {
         name: "Amber Brew",
         meta: "— cafe website",
         desc: "Specialty cafe — menu, map, IG feed, online ordering.",
+      },
+      stratos: {
+        name: "Stratos Digital",
+        meta: "— B2B software studio",
+        desc: "Corporate site for an IT/software house — modern dark UI, animated trust marquee, case studies + 4-step process. TH/EN.",
       },
     },
     services: {

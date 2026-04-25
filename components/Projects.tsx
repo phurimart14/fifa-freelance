@@ -107,6 +107,14 @@ export default function Projects() {
           desc={t.projects.amber.desc}
           image="/projects/cafe.png"
         />
+        <ProjectCard
+          href="https://stratos-landing.vercel.app"
+          url="stratos-landing.vercel.app"
+          name={t.projects.stratos.name}
+          meta={t.projects.stratos.meta}
+          desc={t.projects.stratos.desc}
+          image="/projects/stratos.png"
+        />
       </div>
     </section>
   );
