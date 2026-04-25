@@ -108,7 +108,7 @@ export default function Projects() {
           image="/projects/cafe.png"
         />
         <ProjectCard
-          href="https://stratos-landing.vercel.app"
+          href="https://stratos-landing-one.vercel.app/"
           url="stratos-landing.vercel.app"
           name={t.projects.stratos.name}
           meta={t.projects.stratos.meta}
